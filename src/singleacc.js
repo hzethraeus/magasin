@@ -7,7 +7,6 @@ const SAcc = (props) => {
   const clickHandler = (e) => {
     setOpen(!open);
   };
-  console.log(props);
   return (
     <div className={styles.entire} onClick={clickHandler}>
       <div className={styles.titleRow}>
