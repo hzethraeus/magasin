@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import styles from "./stylesheet/sacc.module.css";
+import styles from "./sacc.module.css";
 import Chevron from "react-chevron";
 const SAcc = (props) => {
   const [open, setOpen] = useState(true);

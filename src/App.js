@@ -1,5 +1,5 @@
 import "./App.css";
-import Accordion from "./accordion.js";
+import Accordion from "./components/accordion.js";
 
 function App() {
   return <Accordion />;

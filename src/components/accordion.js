@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./stylesheet/accordion.module.css";
+import styles from "./accordion.module.css";
 import SingleAcc from "./singleacc.js";
 const Accordion = () => {
   return (
