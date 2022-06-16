@@ -1,6 +1,6 @@
-# Magasin du Nord
+# Accordion code
 
-Accordion code for Magasin du Nord
+Accordion code for MdN
 
 ## Hosted on:
 
