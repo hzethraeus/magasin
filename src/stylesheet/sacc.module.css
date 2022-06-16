@@ -1,0 +1,46 @@
+.entire{
+    width: 440px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+    margin:10px;
+}
+.titleRow{
+    width:400px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid black;
+    margin:10px;
+    font-size: 1.3em;
+}
+
+.content{
+    width:400px;
+    padding-bottom:10px;
+    
+}
+.open{
+    max-height: 100px;
+    transition: max-height 0.5s ease-out;
+    overflow: hidden;
+}
+.closed {
+    max-height:0px;
+    transition: max-height 0.5s ease-out;
+    overflow:hidden;
+    color:white;
+}
+.chevOpen{
+    transform: rotate(0deg);
+    transition: transform 0.5s ease-out;
+}
+.chevClose{
+    transform: rotate(180deg);
+    transition: transform 0.5s ease-out;
+}
+
